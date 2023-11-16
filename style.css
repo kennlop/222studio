@@ -82,6 +82,23 @@ body{
     line-height: normal;
 }
 
+.project-title{
+    font-family: 'PPMondwest';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.project-description{
+    color: #000;
+    font-family: 'GT-Planar';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 0;
+}
+
 
 /* about page */
 .about-copy{
@@ -103,3 +120,39 @@ body > div > div.home-body-container > div > h1{
     margin: 0px;
     padding: 0px;
 }
+
+/* projects */
+/* projects */
+.moodring-thumbnail{
+    width: 591px;
+    height: 368px;
+    border-radius: 10px;
+}
+
+.projects-row{
+    display: flex;
+    flex-direction: row;
+    /*CHANGE THIS VALUE BY 570 EVERY TIME YOU ADD MORE PAGES*/
+    padding-left: 1370px;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    height: 92.5vh;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 68px;
+    margin-top: 100px;
+}
+
+.project-div{
+    width: 591px;
+    height: 368px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+

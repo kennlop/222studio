@@ -21,6 +21,11 @@ body{
     overflow-y: hidden;
 }
 
+.logo{
+    padding-top: 36px;
+    padding-left: 22px;
+}
+
 .logo-img{
     position: fixed;
     height: 91vh;
@@ -28,9 +33,7 @@ body{
 }
 
 .home-container{
-    padding-top: 36px;
-    padding-bottom: 36px;
-    padding-left: 22px;
+    
     display: flex;
     flex-direction: column;
 }

@@ -102,6 +102,15 @@ body{
     line-height: 0;
 }
 
+.GT-Planar-sm{
+    color: #000;
+    font-family: 'GT-Planar';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
 
 /* about page */
 .about-copy{
@@ -166,3 +175,27 @@ body > div > div.home-body-container > div > h1{
     display: none;
   }
   /* Hide scrollbar for Firefox */
+
+  /* PROJECT SHOWCASE PAGE */
+  /* PROJECT SHOWCASE PAGE */
+.project-copy{
+    margin-top: 40px;
+    justify-content: center;
+    padding-left: 225px;
+    display: flex;
+
+}
+
+.project-link{
+    margin-top: -14px;
+}
+
+.project-name-link{
+    display: flex;
+    flex-direction: column;
+    padding-right: 45px;
+}
+
+.project-info{
+    width: 560px;
+}

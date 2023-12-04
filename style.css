@@ -133,6 +133,8 @@ body > div > div.home-body-container > div > h1{
 }
 
 .projects-row{
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
     display: flex;
     flex-direction: row;
     /*CHANGE THIS VALUE BY 570 EVERY TIME YOU ADD MORE PAGES*/
@@ -159,3 +161,8 @@ body > div > div.home-body-container > div > h1{
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
+/* Hide scrollbar for all browsers except Firefox */
+::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for Firefox */

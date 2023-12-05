@@ -315,19 +315,22 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
     .header-item{
         margin-left: 0px !important;
     }
+    .home-container{
+        overflow-x:hidden !important; 
+    }
     .home-gif-div {
         justify-content: center;
         margin-top: 200px;
         display: flex;
         width: 350px;
         height: 350px;
-        padding-left: 20vw;
+        padding-left: 15vw;
     }
 
     .logo-img {
         margin-top: 80px;
         position: absolute;
-        height: 78vh;
+        height: 70vh;
         mix-blend-mode: multiply;
     }
 }

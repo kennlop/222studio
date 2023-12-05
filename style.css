@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'GT-Planar-Italic';
-    src: url('fonts/GT-Planar-Italic-30-Light-Trial.otf') format('opentype');
+    src: url('assets/fonts/GT-Planar-Italic-30-Light-Trial.otf') format('opentype');
     /* Add more src lines if you have multiple font formats */
 }
 
 @font-face {
     font-family: 'GT-Planar';
-    src: url('fonts/GT-Planar-Light-Trial.otf') format('opentype');
+    src: url('assets/fonts/GT-Planar-Light-Trial.otf') format('opentype');
     /* Add more src lines if you have multiple font formats */
 }
 
 @font-face {
     font-family: 'PPMondwest';
-    src: url('fonts/PPMondwest-Regular.otf') format('opentype');
+    src: url('assets/fonts/PPMondwest-Regular.otf') format('opentype');
     /* Add more src lines if you have multiple font formats */
 }
 

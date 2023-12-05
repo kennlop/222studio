@@ -297,3 +297,37 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
     border-radius: 10px;
     border: 1px solid #000;
 }
+
+/* Tablet mode homepage */
+@media screen and (max-width:1280px){
+    .header-menu {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    .header-menu {
+        width: 90vw;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .header-item{
+        margin-left: 0px !important;
+    }
+    .home-gif-div {
+        justify-content: center;
+        margin-top: 200px;
+        display: flex;
+        width: 350px;
+        height: 350px;
+        padding-left: 20vw;
+    }
+
+    .logo-img {
+        margin-top: 80px;
+        position: fixed;
+        height: 78vh;
+        mix-blend-mode: multiply;
+    }
+}

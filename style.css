@@ -117,6 +117,44 @@ a{
 
 
 /* about page */
+.black{
+    background-color: #000;
+}
+
+.black .header-links, .black .mondwest-large {
+    color: white; 
+}
+
+.dice-logo{
+    position: fixed;
+    display:flex ;
+    flex-direction: column;
+}
+
+.die{
+    height: 27vh;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+}
+
+.left-dot, .right-dot{
+    position: absolute;
+    width: 95px;
+    height: 95px;
+}
+
+.right-dot{
+    padding-top: 10px;
+    padding-left: 180px
+}
+
+.left-dot{
+    padding-top: 160px;
+    padding-left: 10px;
+}
+
 .about-copy{
     display: flex;
     flex-direction: column;

@@ -326,7 +326,7 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
 
     .logo-img {
         margin-top: 80px;
-        position: fixed;
+        position: absolute;
         height: 78vh;
         mix-blend-mode: multiply;
     }

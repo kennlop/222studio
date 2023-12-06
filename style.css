@@ -415,8 +415,27 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
 }
 
 @media screen and (max-width: 600px) {
+    body.special-header{
+        overflow-y: auto;
+    }
+
+    body.special-header .header-menu {
+        position:fixed;
+        background-color: white;
+        width: 90vw;
+        justify-content: space-between;
+        padding-left: 23px;
+        padding-right: 30px;
+    }
+    .header-item{
+        margin-left: 0px !important;
+    }
     .mobile-logo{
         display: block;
+    }
+
+    body.special-header .home-container{
+        overflow-y: hidden !important;
     }
 
     body.special-header .logo-img{
@@ -439,20 +458,15 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
         height: 54.772px;
       }
     
-    body.special-header{
-        overflow-y: scroll;
-    }
-
     .projects-row{
-        padding-top: 120px;
         padding-left: 0px;
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: scroll !important;
         white-space: wrap; /* Prevent line breaks */
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        margin-top: 120px;
+        height:auto;
         padding-bottom: 0px;
     }
 

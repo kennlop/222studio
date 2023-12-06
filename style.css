@@ -361,7 +361,7 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     body > div > div.about-copy > h1{
         width: 184px !important;
     }
@@ -376,7 +376,7 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
         flex-direction: column;
     }
     .die{
-        height: 27vh;
+        height: 25vh;
         width: 168px;
         display: flex;
         flex-direction: column;
@@ -387,16 +387,6 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
         position: absolute;
         width: 48.649px;
         height: 48.649px;
-    }
-    
-    .right-dot{
-        padding-top: 10px;
-        padding-left: 180px
-    }
-    
-    .left-dot{
-        padding-top: 160px;
-        padding-left: 10px;
     }
 }
 

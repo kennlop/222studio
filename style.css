@@ -363,14 +363,14 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
 
 @media screen and (max-width:800px){
     body > div > div.about-copy > h1{
-        width: 184px !important;
+        width: 180px !important;
     }
     .mondwest-large{
         font-size: 20px;
     }
 
     .dice-logo{
-        
+        margin-top: 55px;
         position: absolute;
         display:flex ;
         flex-direction: column;
@@ -385,8 +385,12 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
     
     .left-dot, .right-dot{
         position: absolute;
-        width: 48.649px;
-        height: 48.649px;
+        width: 58.649px;
+        height: 58.649px;
+    }
+    .about-copy{
+        padding-left: 190px;
+        margin-top: 60px;
     }
 }
 

@@ -419,7 +419,7 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
         display: block;
     }
 
-    .logo-img{
+    body.special-header .logo-img{
         display: none;
     }
     body.special-header .header-item {

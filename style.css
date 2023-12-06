@@ -126,6 +126,7 @@ a{
 }
 
 .dice-logo{
+    margin-left: -22px;
     position: fixed;
     display:flex ;
     flex-direction: column;
@@ -139,21 +140,32 @@ a{
     padding: 23px;
 }
 
+.right-div{
+    position: relative;
+    justify-content: right;
+    display: flex;
+}
+
+.left-div{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
 .left-dot, .right-dot{
     position: absolute;
     width: 95px;
     height: 95px;
 }
 
-.right-dot{
-    padding-top: 10px;
-    padding-left: 180px
-}
-
-.left-dot{
-    padding-top: 160px;
-    padding-left: 10px;
-}
+.right-dot {
+   
+  }
+  
+  .left-dot {
+    
+  }
 
 .about-copy{
     display: flex;
@@ -167,7 +179,6 @@ a{
 
 body > div > div.about-copy > h1{
     width: 757px !important;
-    
 }
 
 body > div > div.home-body-container > div > h1{
@@ -299,9 +310,14 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
 }
 
 /* Tablet mode homepage */
-@media screen and (max-width:1280px){
+@media screen and (max-width:1300px){
     .header-menu {
         width: 100vw;
+        padding-right: 0px;
+        padding-top: 40px;
+    }
+    .logo{
+        position: absolute;
     }
 }
 
@@ -334,3 +350,53 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
         mix-blend-mode: multiply;
     }
 }
+
+/* Tablet mode about page*/
+@media screen and (max-width:1300px){
+    body > div > div.about-copy > h1{
+        width: 471px !important;
+    }
+    .about-copy{
+        padding-left: 340px;
+    }
+}
+
+@media screen and (max-width:600px){
+    body > div > div.about-copy > h1{
+        width: 184px !important;
+    }
+    .mondwest-large{
+        font-size: 20px;
+    }
+
+    .dice-logo{
+        
+        position: absolute;
+        display:flex ;
+        flex-direction: column;
+    }
+    .die{
+        height: 27vh;
+        width: 168px;
+        display: flex;
+        flex-direction: column;
+        padding: 23px;
+    }
+    
+    .left-dot, .right-dot{
+        position: absolute;
+        width: 48.649px;
+        height: 48.649px;
+    }
+    
+    .right-dot{
+        padding-top: 10px;
+        padding-left: 180px
+    }
+    
+    .left-dot{
+        padding-top: 160px;
+        padding-left: 10px;
+    }
+}
+

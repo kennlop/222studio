@@ -376,8 +376,8 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
         flex-direction: column;
     }
     .die{
-        height: 25vh;
-        width: 168px;
+        height: 22vh;
+        width: 138px;
         display: flex;
         flex-direction: column;
         padding: 23px;

@@ -499,7 +499,7 @@ body > div > div.project-showcase-row > div:nth-child(3) > div{
     .project-description{
         margin-top: -5px;
         font-size: 16px;
-        white-space: wrap !important;
+        white-space: normal !important;
         width: 350px;
         overflow-y: visible;
         overflow-x: visible;
